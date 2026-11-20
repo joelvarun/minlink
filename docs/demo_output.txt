@@ -1,0 +1,25 @@
+coastline polyline: 1193 vertices (longest in the layer is 16538)
+
+zoom 4, tolerance 0.08789 degrees (one screen pixel)
+  Douglas-Peucker        93 vertices, realized error 0.087589
+  Visvalingam-Whyatt    430 vertices, realized error 0.057922
+  minlink (exact)        63 vertices, realized error 0.087848, 0.4s
+  minlink keeps 32.3% fewer vertices than Douglas-Peucker at the same bound
+
+zoom 6, tolerance 0.02197 degrees (one screen pixel)
+  Douglas-Peucker       300 vertices, realized error 0.021564
+  Visvalingam-Whyatt    913 vertices, realized error 0.011277
+  minlink (exact)       228 vertices, realized error 0.021859, 0.2s
+  minlink keeps 24.0% fewer vertices than Douglas-Peucker at the same bound
+
+zoom 8, tolerance 0.00549 degrees (one screen pixel)
+  Douglas-Peucker       725 vertices, realized error 0.005459
+  Visvalingam-Whyatt   1168 vertices, realized error 0.000462
+  minlink (exact)       667 vertices, realized error 0.005486, 0.2s
+  minlink keeps 8.0% fewer vertices than Douglas-Peucker at the same bound
+
+optimality certificate on a 254 vertex polyline: verified
+  no simplification with fewer than 29 vertices meets the 0.02197 degree bound
+
+vertex budget inversion: 200 vertex budget met at tolerance 0.027562 degrees (198 vertices)
+  that is 16.6% of the original 1193 vertices

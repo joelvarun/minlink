@@ -1,0 +1,236 @@
+{
+  "corpus": {
+    "layer": "coastline10m",
+    "polylines": 4133,
+    "vertices": 410957,
+    "longest": 16538
+  },
+  "runs": [
+    {
+      "zoom": 3,
+      "eps_deg": 0.17578125,
+      "methods": {
+        "douglas_peucker": {
+          "vertices": 18523,
+          "max_error_deg": 0.17574300439981078,
+          "seconds": 1.0266053999075666,
+          "geojson_bytes": 768785,
+          "gzip_bytes": 162987,
+          "non_simple": 1101
+        },
+        "visvalingam": {
+          "vertices": 67976,
+          "max_error_deg": 0.17570833402260566,
+          "seconds": 26.180858199950308,
+          "geojson_bytes": 1892361,
+          "gzip_bytes": 594672,
+          "non_simple": 660
+        },
+        "minlink": {
+          "vertices": 14948,
+          "max_error_deg": 0.17578093496272262,
+          "seconds": 479.40905699995346,
+          "geojson_bytes": 687317,
+          "gzip_bytes": 129311,
+          "non_simple": 1167
+        }
+      },
+      "certificate": {
+        "polylines_checked": 4020,
+        "verified": true
+      },
+      "reduction_vs_dp_pct": 19.300329320304485,
+      "reduction_vs_vw_pct": 78.0098858420619,
+      "gzip_reduction_vs_dp_pct": 20.66177057065901
+    },
+    {
+      "zoom": 4,
+      "eps_deg": 0.087890625,
+      "methods": {
+        "douglas_peucker": {
+          "vertices": 30487,
+          "max_error_deg": 0.0878901451123274,
+          "seconds": 1.913035099976696,
+          "geojson_bytes": 1041290,
+          "gzip_bytes": 272603,
+          "non_simple": 1387
+        },
+        "visvalingam": {
+          "vertices": 108838,
+          "max_error_deg": 0.0878624334193154,
+          "seconds": 30.87661629996728,
+          "geojson_bytes": 2817845,
+          "gzip_bytes": 934886,
+          "non_simple": 752
+        },
+        "minlink": {
+          "vertices": 23373,
+          "max_error_deg": 0.08789044294429467,
+          "seconds": 215.4055349000264,
+          "geojson_bytes": 879278,
+          "gzip_bytes": 209160,
+          "non_simple": 1480
+        }
+      },
+      "certificate": {
+        "polylines_checked": 4020,
+        "verified": true
+      },
+      "reduction_vs_dp_pct": 23.334536031751238,
+      "reduction_vs_vw_pct": 78.52496370752863,
+      "gzip_reduction_vs_dp_pct": 23.273038081018917
+    },
+    {
+      "zoom": 5,
+      "eps_deg": 0.0439453125,
+      "methods": {
+        "douglas_peucker": {
+          "vertices": 52094,
+          "max_error_deg": 0.043945282608811705,
+          "seconds": 3.978282199939713,
+          "geojson_bytes": 1533366,
+          "gzip_bytes": 461713,
+          "non_simple": 1090
+        },
+        "visvalingam": {
+          "vertices": 155464,
+          "max_error_deg": 0.043935811557896935,
+          "seconds": 50.7064750000136,
+          "geojson_bytes": 3877709,
+          "gzip_bytes": 1315346,
+          "non_simple": 568
+        },
+        "minlink": {
+          "vertices": 39530,
+          "max_error_deg": 0.04394495913710965,
+          "seconds": 156.81323029997293,
+          "geojson_bytes": 1247435,
+          "gzip_bytes": 355691,
+          "non_simple": 1206
+        }
+      },
+      "certificate": {
+        "polylines_checked": 4020,
+        "verified": true
+      },
+      "reduction_vs_dp_pct": 24.11794064575575,
+      "reduction_vs_vw_pct": 74.57289147326712,
+      "gzip_reduction_vs_dp_pct": 22.962749586864568
+    },
+    {
+      "zoom": 6,
+      "eps_deg": 0.02197265625,
+      "methods": {
+        "douglas_peucker": {
+          "vertices": 87093,
+          "max_error_deg": 0.02197230400575705,
+          "seconds": 5.837856499943882,
+          "geojson_bytes": 2330263,
+          "gzip_bytes": 755686,
+          "non_simple": 517
+        },
+        "visvalingam": {
+          "vertices": 218583,
+          "max_error_deg": 0.021966709775682783,
+          "seconds": 30.94712210004218,
+          "geojson_bytes": 5314232,
+          "gzip_bytes": 1815542,
+          "non_simple": 208
+        },
+        "minlink": {
+          "vertices": 69071,
+          "max_error_deg": 0.021972569972639872,
+          "seconds": 135.19706889998633,
+          "geojson_bytes": 1920285,
+          "gzip_bytes": 611253,
+          "non_simple": 570
+        }
+      },
+      "certificate": {
+        "polylines_checked": 4020,
+        "verified": true
+      },
+      "reduction_vs_dp_pct": 20.692822614905904,
+      "reduction_vs_vw_pct": 68.40056180032299,
+      "gzip_reduction_vs_dp_pct": 19.112832578610693
+    },
+    {
+      "zoom": 7,
+      "eps_deg": 0.010986328125,
+      "methods": {
+        "douglas_peucker": {
+          "vertices": 139746,
+          "max_error_deg": 0.010986132220739245,
+          "seconds": 10.452293199952692,
+          "geojson_bytes": 3528263,
+          "gzip_bytes": 1185055,
+          "non_simple": 289
+        },
+        "visvalingam": {
+          "vertices": 275680,
+          "max_error_deg": 0.010985302908886212,
+          "seconds": 32.79183999996167,
+          "geojson_bytes": 6611591,
+          "gzip_bytes": 2261686,
+          "non_simple": 148
+        },
+        "minlink": {
+          "vertices": 118818,
+          "max_error_deg": 0.010986276968035882,
+          "seconds": 131.0570179000497,
+          "geojson_bytes": 3052368,
+          "gzip_bytes": 1023501,
+          "non_simple": 303
+        }
+      },
+      "certificate": {
+        "polylines_checked": 4020,
+        "verified": true
+      },
+      "reduction_vs_dp_pct": 14.975741702803658,
+      "reduction_vs_vw_pct": 56.90002901915264,
+      "gzip_reduction_vs_dp_pct": 13.632616207686564
+    },
+    {
+      "zoom": 8,
+      "eps_deg": 0.0054931640625,
+      "methods": {
+        "douglas_peucker": {
+          "vertices": 209121,
+          "max_error_deg": 0.005493155404828139,
+          "seconds": 12.299483700073324,
+          "geojson_bytes": 5105473,
+          "gzip_bytes": 1733408,
+          "non_simple": 262
+        },
+        "visvalingam": {
+          "vertices": 327252,
+          "max_error_deg": 0.0054929509295018756,
+          "seconds": 27.723465500050224,
+          "geojson_bytes": 7785574,
+          "gzip_bytes": 2661566,
+          "non_simple": 156
+        },
+        "minlink": {
+          "vertices": 191354,
+          "max_error_deg": 0.005493155404828139,
+          "seconds": 148.14065209997352,
+          "geojson_bytes": 4701742,
+          "gzip_bytes": 1601225,
+          "non_simple": 274
+        }
+      },
+      "certificate": {
+        "polylines_checked": 4020,
+        "verified": true
+      },
+      "reduction_vs_dp_pct": 8.496038178853391,
+      "reduction_vs_vw_pct": 41.52701893342134,
+      "gzip_reduction_vs_dp_pct": 7.625613819712382
+    }
+  ],
+  "geos_crosscheck": {
+    "polylines": 250,
+    "same_vertex_count": 250
+  }
+}
